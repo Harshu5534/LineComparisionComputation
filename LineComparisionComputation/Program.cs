@@ -13,11 +13,15 @@ namespace LineComparisionComputation
             { 
                 Console.WriteLine("Both Lines Lengths Are Equal");
             }
-            else if (l2.CompareTo(l1) > 0)
+            if (l1.CompareTo(l2) > 0)
             {
-                Console.WriteLine("Both Lines Length Are Not Equal");
+                Console.WriteLine(" Line 1 Is Greater ");
             }
+            else 
+            {
+                Console.WriteLine(" Line 2 Is Greater ");
 
+            }
         }
 
     }
